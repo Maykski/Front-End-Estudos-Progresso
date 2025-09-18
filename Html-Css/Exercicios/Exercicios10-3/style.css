@@ -1,0 +1,99 @@
+/* Importando fontes do Google */
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+/* Reset básico */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: "DM Serif Text", serif;
+    overflow: hidden; /* remove scroll */
+}
+
+/* Seção principal */
+.apresentacao {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    max-height: 100%;            
+    padding: 80px; 
+    margin-bottom: 10px;      
+    box-sizing: border-box;    
+}
+
+
+/* Conteúdo de texto */
+.conteudo {
+    width: 593px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+}
+
+.titulo {
+    max-height: 100%;
+    font-size: 36px;
+    font-family: "Archivo Black", sans-serif;
+}
+
+.texto {
+    max-height: 100%;
+    font-size: 21px;
+    font-family: "DM Serif Text", serif;
+}
+
+/* Destaque no título */
+.destaque {
+    color: #6F9BED;
+}
+
+/* Links de redes */
+.links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center;
+    gap: 16px;
+}
+
+.subtitulo{
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+.link {
+    /* background-color: #00d0ff ; */
+    width: 378px;
+    text-align: center;
+    border-radius: 8px;
+    border: 2px solid #00d0ff;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: #f6f6f6;
+    font-family: "DM Serif Text", serif;
+}
+
+
+.link:hover {
+    background-color: #00a9cf;
+    color: #fff;
+}
+
+/* Imagem lateral */
+.apresentacao img {
+    height: 550px;
+    width: 488px;
+    border-radius: 12px;
+}
+
