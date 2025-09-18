@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=DM+Serif+Text:ital@0;1&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #2a3242;
+    color: rgb(255, 255, 255);
+   
+}
+
+
+.titulo-destaque {
+    color: #6F9BED;
+    border: 1px solid #6F9BED;
+    padding: 1px;
+}
+
+.Apresentacao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15%;
+}
+
+.Apresentacao__conteudo {
+    width: 615px;
+}
+
+.Apresentacao__conteudo__titulo {
+    font-size: 36px;
+    font-family: "Archivo Black", sans-serif;
+}
+
+.Apresentacao__conteudo__paragrafo {
+    font-size: 24px;
+    font-family: "DM Serif Text", serif;
+}

@@ -1,0 +1,26 @@
+body {
+    background-color: #2a3242;
+    font-size: larger; 
+}
+
+h1  {
+    font-weight: bold;
+    color: #0e121a;
+
+    span {
+        color: #6F9BED;
+        border: 1px solid #6F9BED;
+        padding: 10px;
+    }
+}
+p {
+
+    font-weight: initial;
+    color: #0e121a;
+
+    span {
+    color: #6F9BED;
+    padding: 10px;
+    }
+}
+

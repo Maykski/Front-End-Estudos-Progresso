@@ -1,0 +1,21 @@
+! -> Quando é usado apenas essa esclamação aparecerá o codigo base, que é o codigo abaixo .
+
+<!DOCTYPE html> -> é o tipo de documento que estou utilizando, neste caso significa que estou utilizando o html 5.
+
+<html lang="pt-br"> -> Usado para mostrar o tipo de linguagem do Site que será utilizado, Tem que haver outra tag para encerrar esse comando -> /html>
+
+<head> -> Cabeçario, tambem tem uma tag de encerramento /head>
+
+<meta charset="UTF-8"> -> para suportar palavras com acentos
+
+<meta name="viewport"content="width=device-width, initial-scale=1.0"> -> Significa que seu site usará 100% da tela disponivel do navegador, Tendo isso em mente, o seu Body terá uma escala de 1.0
+
+<title>  </title> -> dentro desse title, é a escrita na parte de cima do link do site, por exemplo o nome inicial do site.
+
+<body> </body> -> Conteúdo do seu site terá que ficar dentro do body.
+
+<h1>  </h1> -> O que estiver dentro do H1 se transformará em um conjunto de caracteres tamanho nivel 1.
+
+hr> -> Linha vertical para a estetica, por exemplo: --------------------------------------------------------
+
+<p>  </p> -> Parágrafo do meu site

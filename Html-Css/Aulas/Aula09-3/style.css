@@ -1,0 +1,88 @@
+/* Importando fontes do Google */
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+/* Reset básico */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: "DM Serif Text", serif;
+    overflow: hidden; /* remove scroll */
+}
+
+/* Seção principal */
+.apresentacao {
+    display: flex;
+    align-items: center;       /* centraliza verticalmente */
+    justify-content: space-between; /* texto à esquerda, imagem à direita */
+    height: 100vh;             
+    padding: 5% 12%;           /* espaçamento interno */
+    box-sizing: border-box;    
+}
+
+/* Conteúdo de texto */
+.apresentacao_conteudo {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+}
+
+.apresentacao_conteudo_titulo {
+    font-size: 36px;
+    font-family: "Archivo Black", sans-serif;
+    line-height: 1.2;
+}
+
+.apresentacao_conteudo_texto {
+    font-size: 21px;
+    font-family: "DM Serif Text", serif;
+    line-height: 1.6;
+}
+
+/* Destaque no título */
+.destaque_titulo {
+    color: #6F9BED;
+}
+
+/* Links de redes */
+.apresentacao_links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center;
+    gap: 32px;
+}
+
+.apresentacao_links_link {
+    background-color: #00d0ff;
+    width: 220px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 15px 0;  /* corrigido (sem vírgula) */
+    text-decoration: none;
+    color: rgb(15, 4, 82);
+    font-family: "DM Serif Text", serif;
+}
+
+.apresentacao_links_link:hover {
+    background-color: #00a9cf;
+    color: #fff;
+}
+
+/* Imagem lateral */
+.apresentacao img {
+    max-width: 400px;
+    height: auto;
+    border-radius: 12px;
+}

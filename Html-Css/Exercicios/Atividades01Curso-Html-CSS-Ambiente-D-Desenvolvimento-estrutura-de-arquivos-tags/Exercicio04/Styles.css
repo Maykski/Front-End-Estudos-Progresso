@@ -1,0 +1,8 @@
+body {
+    background-color: rgba(0, 0, 0, 0.788);
+    color: white;
+    font-size: larger;
+    strong {
+  color: rgb(1, 197, 197); /* Mudar para a cor desejada */
+    }
+}

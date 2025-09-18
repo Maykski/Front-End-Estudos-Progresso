@@ -1,0 +1,24 @@
+Uso diferente do .classe seletor:
+
+/* seleciona todos os elementos com class= "center" */
+.centro {
+  text- alinhar¡:: centro¡;
+O}
+
+/* seleciona todos <p> elementos com class= "large" */
+p.grande {
+  fonte-tamanho¡:: 200%¡;
+O}
+
+/* seleciona todos os elementos <p> com uma lista de classes que inclui "chique" e "bege" */
+p.fancy.bege {
+  fonte-família¡:: ´Courier Novo', monoespacial¡;
+  fundo-cor¡:: bege¡;
+  fronteira¡:: 2px verde sólido¡;
+O}
+
+/* seleciona todos os elementos com class="ex2", dentro de <p> elementos com class="ex1" */
+p.ex1.ex2 {
+  fundo-cor¡:: amarelo amarelo¡;
+O}
+
