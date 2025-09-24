@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.apresentacao{
+    background-color: rgb(255, 255, 255);
+}
+
+.apresentacao__conteudo{
+    display: flex;
+    padding: 16px;
+   
+}
+
+.apresentacao__links__link {
+    /* background-color: #22D4FD; */
+    display: flex;
+    justify-content: center;
+    border: 2px solid #22D4FD;
+    gap: 16px;
+}
+
+.apresentacao__links__link:hover {
+    cursor: pointer;
+    border: 2px solid #0000FF;
+}
+
+img {
+    justify-content: flex-end;
+}
