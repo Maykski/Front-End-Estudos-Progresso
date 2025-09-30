@@ -1,0 +1,11 @@
+1) Adaptando o corpo do texto para unidades relativas
+Nesta atividade, você adaptará o corpo do texto do seu projeto para responder melhor às configurações do navegador do usuário. Escolha elementos de texto, como parágrafos (<p>) ou subtítulos (<h2>), no arquivo style.css e altere a unidade de medida do font-size de px para rem. Por exemplo, se um parágrafo está com font-size: 18px, converta para 1.125rem (18 / 16 = 1.125). Após a alteração, salve o arquivo e teste o comportamento do texto alterando o tamanho da fonte nas configurações de aparência do navegador.
+
+2) Convertendo pixels para rem em CSS
+Você está trabalhando em um projeto de site e recebeu a tarefa de atualizar o CSS para melhorar a responsividade do texto. Seu objetivo é converter todas as unidades de font-size de pixels para rem, seguindo o exemplo que Guilherme e Rafaela mostraram. Inicie procurando todas as ocorrências de font-size no arquivo styles.css e faça a conversão. Lembre-se de que o valor padrão para 1rem é 16px. Por exemplo, se encontrar font-size: 24px;, você deve converter para font-size: 1.5rem;.
+
+3) Melhorando a responsividade de um site
+Seu desafio agora é testar a responsividade do site após as alterações feitas no font-size. Para isso, abra a página de portfólio no navegador e altere as configurações de tamanho de fonte (Muito grande, Grande, Médio, Pequeno e Muito pequeno). Observe como os textos do site se adaptam a cada mudança e faça anotações sobre quaisquer problemas de layout ou legibilidade que você encontre. Isso ajudará a identificar se as mudanças feitas realmente melhoraram a experiência do usuário em diferentes configurações.
+
+4) Ajustando o CSS para diferentes tamanhos de fonte
+Após testar a responsividade do site, você percebeu que algumas seções não se adaptam bem a tamanhos de fonte muito grandes ou muito pequenos. Sua tarefa agora é ajustar o CSS para garantir que o site permaneça legível e visualmente agradável em todos os tamanhos de fonte. Isso pode envolver ajustar margin, padding, ou até mesmo o font-size de algumas seções específicas. Faça as alterações necessárias no arquivo styles.css e teste novamente a responsividade em diferentes tamanhos de fonte.
