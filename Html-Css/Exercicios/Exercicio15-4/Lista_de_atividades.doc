@@ -1,0 +1,11 @@
+1) Adaptando imagens para diferentes tamanhos de tela
+Você está trabalhando em um site e precisa garantir que as imagens se adaptem corretamente a diferentes tamanhos de tela. Sua tarefa é adicionar uma classe apresentacao__imagem às imagens relevantes no HTML e definir o width dessa classe para 50% no CSS. Isso fará com que as imagens ocupem 50% da largura do elemento pai. Certifique-se de testar em diferentes larguras de tela, como 720px, para verificar a responsividade.
+
+2) Ajustando o layout para diferentes dispositivos
+O layout do seu site precisa ser ajustado para diferentes dispositivos. Utilize a ferramenta "Inspecionar" do navegador para simular diferentes tamanhos de tela, como um notebook. Ajuste o layout da página para que ele se adapte de forma harmoniosa em telas menores. Isso pode envolver a alteração de margens, paddings, e até mesmo a reorganização de elementos na página.
+
+3) Responsividade do conteúdo de texto
+O conteúdo de texto do seu site não está se adaptando bem a telas menores. Você precisa ajustar a classe .apresentacao__conteudo no CSS para usar larguras relativas em vez de fixas. Experimente definir a width para 50% e observe como o texto se adapta quando você muda o tamanho da tela. Lembre-se de que a responsividade é chave para uma boa experiência do usuário em dispositivos diversos.
+
+4) Melhorando a responsividade dos links de navegação
+Os links de navegação do seu site estão se comportando de forma inadequada em diferentes tamanhos de tela. Sua tarefa é ajustar a classe .apresentacao__links__navegacao no CSS. Altere a width para um valor relativo, como 50%, e teste em diferentes tamanhos de tela. Observe como os links respondem a essas mudanças e ajuste conforme necessário para garantir uma navegação fluida e acessível.

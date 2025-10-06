@@ -42,6 +42,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 82px;
 }
 .apresentacao__conteudo{
     width: 50%;
@@ -113,4 +114,11 @@ body{
 .apresentacao__conteudo__texto a{
     text-decoration: none;
     color: var(--cor-terciaria);
+}
+
+@media (max-width: 1200px){
+    .apresentacao{
+        flex-direction: column-reverse; 
+    }
+    
 }
