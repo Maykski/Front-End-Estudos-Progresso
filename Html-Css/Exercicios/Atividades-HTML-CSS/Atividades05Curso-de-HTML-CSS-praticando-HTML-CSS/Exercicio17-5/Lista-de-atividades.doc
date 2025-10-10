@@ -1,0 +1,21 @@
+1) Criando um botão estilizado com CSS
+Você trabalha com desenvolvimento web e está seguindo um projeto para criar uma página com base em um design do Figma. Sua tarefa agora é estilizar um botão que, na verdade, é uma tag <a> transformada visualmente em botão. Use o CSS para dar a esta âncora a aparência desejada, baseando-se nas instruções do vídeo.
+
+2) Ajustando o layout do botão
+Agora que o botão está estilizado, você percebe que ele está alinhado ao lado de uma imagem, mas no design do Figma, ele deve estar abaixo dela. Seu desafio é ajustar o layout para que o botão apareça na posição correta.
+
+Examine a estrutura HTML para entender como a imagem e o botão estão organizados.
+Use o CSS para alterar o comportamento de exibição dos elementos, se necessário.
+Considere a possibilidade de ajustar a propriedade display da imagem ou do contêiner que envolve tanto a imagem quanto o botão.
+Faça os ajustes necessários para que o botão apareça abaixo da imagem, conforme o design.
+3) Ajustando o layout com grid CSS
+Suponha que você está trabalhando no desenvolvimento front-end de um site e se depara com um problema de layout: um botão que está ocupando mais espaço do que deveria. Sua tarefa é corrigir esse problema utilizando CSS Grid. Para isso, você deve modificar a classe .container no arquivo styles.css, definindo display: grid e ajustando o grid-template-columns para que o botão ocupe apenas o espaço necessário. Além disso, experimente com diferentes configurações de colunas, como 50% 50% e 33% 33% 33%, para observar as mudanças no layout.
+
+4) Criando um botão secundário com CSS
+Você precisa criar um segundo botão para o site que está trabalhando, o qual deve ter características visuais distintas do botão principal. No arquivo index.html, adicione um novo elemento âncora (<a>) com a classe botao_secundario. No arquivo styles.css, defina o estilo para .botao_secundario, alterando o background-color para transparente e adicionando uma borda com 2px solid var(--branco-principal). Ajuste também outros atributos conforme necessário para que este botão secundário tenha uma aparência única, mas mantenha a consistência com o design geral do site.
+
+5) Personalizando fontes e estilos no CSS
+Imagine que você está trabalhando em um projeto de website e recebeu o design final do cliente através do Figma. Sua tarefa é replicar o design no HTML e CSS. Primeiro, você precisa lidar com as fontes. No Figma, você observa que o projeto utiliza a fonte "Inter" com pesos 400 e 700. Você precisa importar essa fonte do Google Fonts e aplicá-la ao seu projeto, definindo-a como a fonte padrão. Além disso, você deve definir um font-size padrão de 16px e um font-weight de 400 para o corpo do texto. Por fim, você deve criar uma classe .container__aviso com um font-size de 12px e uma cor cinza. Como você faria isso?
+
+6) Estilizando títulos e botões
+Continuando o trabalho no mesmo projeto, agora você precisa ajustar os estilos de elementos específicos. Primeiro, ajuste o estilo do título principal. No Figma, você vê que o título (marcado com a tag <h1>) tem um font-size de 28px e um font-weight de 700. Crie uma classe .container__titulo para aplicar esses estilos. Em seguida, personalize os botões removendo o sublinhado padrão (usando text-decoration: none;) e ajuste outras propriedades conforme necessário. Como você implementaria esses estilos específicos?
