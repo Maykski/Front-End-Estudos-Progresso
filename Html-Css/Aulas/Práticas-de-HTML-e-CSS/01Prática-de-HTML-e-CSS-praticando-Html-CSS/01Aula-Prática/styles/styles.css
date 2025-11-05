@@ -26,6 +26,8 @@ body {
     background-image: url('../assets/Background.png');
     background-repeat: no-repeat;
     background-size: contain;
+    align-items: center;
+    text-align: center;
 }
 
 
@@ -43,11 +45,11 @@ body {
     display: block;
     text-align: center;
     text-decoration: none;
+    margin-bottom: 1em;
 }
 
 .container__botao__segundario{
     background-color: transparent;
-    border-radius: 0.8rem;
     border: 2px solid var(--cor-principal);
     padding: 1rem;
     display: block;
@@ -64,4 +66,37 @@ body {
 .container_titulo {
     font-size: 2.7rem;
     font-weight: 700;
+}
+
+.container__imagem {
+    margin: 1em 0 2em 0;
+}
+
+.container__caixa {
+    margin: 0 6em;
+}
+
+.container__secundario__imagem {
+    width: 80%;
+}
+
+.secundario {
+    align-items: center;
+    margin: 0 10em;
+}
+
+.descricao__titulo {
+    font-weight: 700;
+    font-size: 3rem;
+    color: var(--cor-principal);
+    margin-bottom: 0.1em;
+}
+
+.secundario__botao {
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.container__descricao{
+    padding: 2em;
 }
