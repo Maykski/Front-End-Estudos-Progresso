@@ -6,7 +6,10 @@
 
     --cor-de-fundo: #00030C;
 
+    --cor-de-efeito: #4a86cf;
     --fonte-principal: 'Inter'
+
+
 }
 
 body {
@@ -50,9 +53,11 @@ body {
 
 .container__botao__segundario{
     background-color: transparent;
-    border: 2px solid var(--cor-principal);
+    border-radius: 0.8rem;
     padding: 1rem;
+    border: 3px solid var(--cor-principal);
     display: block;
+    color: var(--cor-principal);
     text-align: center;
     text-decoration: none;
 }
@@ -99,4 +104,57 @@ body {
 
 .container__descricao{
     padding: 2em;
+}
+
+.dispositivo__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+
+.dispositivo {
+    text-align: center;
+}
+
+.dispositivo__titulo {
+    font-size: 48px;
+    color: var(--cor-principal);
+}
+
+.lista__item {
+    font-size: 32px;
+    color: var(--cor-principal);
+}
+
+.rodape__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+
+.rodape {
+    text-align: center;
+    margin: 5em 3em;
+}
+
+.rodape__texto {
+    margin: 1em 0;
+    color: var(--cinza-secundario);
+    font-size: 14px;
+}
+
+.lista__link a{
+    text-decoration: none;
+    color: var(--branco-principal);
+    margin-left: 1em;
+}
+
+.lista__link:hover {
+    color: var(--cor-botao-primario);
+}
+
+.container__botao:hover {
+    background-color: var(--cor-de-efeito);
 }
