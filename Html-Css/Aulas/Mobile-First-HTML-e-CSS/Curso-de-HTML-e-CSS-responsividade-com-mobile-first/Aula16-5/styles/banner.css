@@ -1,0 +1,37 @@
+.banner {
+    background-color: var(--secondary-color);
+    color: var(--header-prymary-color);
+    text-align: center;
+    padding: 2.5em 2em; 
+}
+
+.banner__titulo {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.banner__texto {
+    font-weight: 400;
+    margin: 1em 0;
+}
+
+.banner__busca {
+    background-color: var(--secondary-color);
+    width: 100%;
+    max-width: 400px;
+    padding: 1em;
+    border: 2px solid var(--secondary-color);
+    color: var(--header-prymary-color);
+    border-radius: 36px;
+    font-size: 16px;
+}
+
+.banner__busca::placeholder {
+    font-family: var(--font-prymary);
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color: var(--header-prymary-color);
+    background: url("../assets/search.svg") no-repeat;
+    background-position: 1em;
+}

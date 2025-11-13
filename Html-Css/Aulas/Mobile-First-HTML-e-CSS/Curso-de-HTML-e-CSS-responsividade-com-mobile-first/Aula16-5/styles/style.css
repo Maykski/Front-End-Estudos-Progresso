@@ -1,0 +1,23 @@
+@import url("../styles/header.css");
+@import url("../styles/banner.css");
+@import url("../styles/carrosel.css");
+:root {
+    --primary-color: #4A90E2;
+    --secondary-color: #5a50e3;
+    --background-color: #9b9b9b;
+    --text-color: #333333;
+
+    /* header */
+    --header-prymary-color: #ffffff;
+    --header-secondary-color: #9b10db;
+    --header-text-color: #000000;
+    /* Fontes */
+    --font-primary: "Oswald";
+}
+
+body {
+    background-color: var(--background-color);
+    font-family: var(--font-primary);
+    font-size: 16px;
+    font-weight: 400;
+}
